@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE1000916815F15008B4782 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE1000816815F15008B4782 /* ImageIO.framework */; };
+		9135EF6D16778B81003E326A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9135EF6C16778B81003E326A /* CoreVideo.framework */; };
+		919334A91676365C00FFE547 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334A81676365C00FFE547 /* UIKit.framework */; };
+		919334AB1676365C00FFE547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334AA1676365C00FFE547 /* Foundation.framework */; };
+		919334AD1676365C00FFE547 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334AC1676365C00FFE547 /* CoreGraphics.framework */; };
+		919334CE1676370D00FFE547 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334CB1676370D00FFE547 /* AVFoundation.framework */; };
+		919334CF1676370D00FFE547 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334CC1676370D00FFE547 /* CoreImage.framework */; };
+		919334D01676370D00FFE547 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334CD1676370D00FFE547 /* CoreMedia.framework */; };
+		919334DA16763CBB00FFE547 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919334D916763CBB00FFE547 /* QuartzCore.framework */; };
+		FF426CC31745ACDA00B4015D /* PhaseControll.m in Sources */ = {isa = PBXBuildFile; fileRef = FF426CC21745ACDA00B4015D /* PhaseControll.m */; };
+		FF4BF91B1747520100E908F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4BF91A1747520100E908F6 /* AudioToolbox.framework */; };
+		FFB27BAE173B5422001DE3E6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB27BAD173B5422001DE3E6 /* CoreMotion.framework */; };
+		FFBBD6C0173C384F00C52594 /* faceSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBBD6BF173C384F00C52594 /* faceSquare.png */; };
+		FFD9D5F01820C56200C1F0E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD9D5EF1820C56200C1F0E0 /* Images.xcassets */; };
+		FFEAA1BB173E1F12002F7BA4 /* Motor.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAA1BA173E1F12002F7BA4 /* Motor.m */; };
+		FFEAA1BE173E1F3A002F7BA4 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAA1BD173E1F3A002F7BA4 /* Camera.m */; };
+		FFEAA1C7173E2256002F7BA4 /* Bluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAA1C6173E2256002F7BA4 /* Bluetooth.m */; };
+		FFEEDDFD173BA84A0025683A /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEEDDFB173BA84A0025683A /* Konashi.m */; };
+		FFEEDDFF173BA9420025683A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEEDDFE173BA9420025683A /* CoreBluetooth.framework */; };
+		FFEEDE02173BBC680025683A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEEDE01173BBC680025683A /* AppDelegate.m */; };
+		FFEEDE05173BBC9E0025683A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEEDE04173BBC9E0025683A /* ViewController.m */; };
+		FFEEDE0D173BBCB70025683A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEEDE08173BBCB70025683A /* main.m */; };
+		FFEEDE2A173BBF540025683A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFEEDE26173BBF540025683A /* InfoPlist.strings */; };
+		FFEEDE2B173BBF540025683A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEEDE28173BBF540025683A /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE1000816815F15008B4782 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9135EF6C16778B81003E326A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		919334A41676365C00FFE547 /* Robo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919334A81676365C00FFE547 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		919334AA1676365C00FFE547 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		919334AC1676365C00FFE547 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		919334CB1676370D00FFE547 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		919334CC1676370D00FFE547 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		919334CD1676370D00FFE547 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		919334D916763CBB00FFE547 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF426CC11745ACDA00B4015D /* PhaseControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhaseControll.h; path = Class/PhaseControll.h; sourceTree = SOURCE_ROOT; };
+		FF426CC21745ACDA00B4015D /* PhaseControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhaseControll.m; path = Class/PhaseControll.m; sourceTree = SOURCE_ROOT; };
+		FF4BF91A1747520100E908F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FFB27BAD173B5422001DE3E6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FFBBD6BF173C384F00C52594 /* faceSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faceSquare.png; path = Class/resource/faceSquare.png; sourceTree = "<group>"; };
+		FFD9D5EF1820C56200C1F0E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Robo/Images.xcassets; sourceTree = "<group>"; };
+		FFEAA1B9173E1F12002F7BA4 /* Motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Motor.h; path = Class/Motor.h; sourceTree = SOURCE_ROOT; };
+		FFEAA1BA173E1F12002F7BA4 /* Motor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Motor.m; path = Class/Motor.m; sourceTree = SOURCE_ROOT; };
+		FFEAA1BC173E1F3A002F7BA4 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = Class/Camera.h; sourceTree = SOURCE_ROOT; };
+		FFEAA1BD173E1F3A002F7BA4 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Camera.m; path = Class/Camera.m; sourceTree = SOURCE_ROOT; };
+		FFEAA1C5173E2256002F7BA4 /* Bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bluetooth.h; path = Class/Bluetooth.h; sourceTree = SOURCE_ROOT; };
+		FFEAA1C6173E2256002F7BA4 /* Bluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bluetooth.m; path = Class/Bluetooth.m; sourceTree = SOURCE_ROOT; };
+		FFEEDDFA173BA84A0025683A /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Konashi.h; path = "Konashi-YosModify/Konashi.h"; sourceTree = "<group>"; };
+		FFEEDDFB173BA84A0025683A /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Konashi.m; path = "Konashi-YosModify/Konashi.m"; sourceTree = "<group>"; };
+		FFEEDDFC173BA84A0025683A /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KonashiDb.h; path = "Konashi-YosModify/KonashiDb.h"; sourceTree = "<group>"; };
+		FFEEDDFE173BA9420025683A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FFEEDE00173BBC680025683A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Class/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FFEEDE01173BBC680025683A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Class/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		FFEEDE03173BBC9E0025683A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Class/ViewController.h; sourceTree = SOURCE_ROOT; };
+		FFEEDE04173BBC9E0025683A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Class/ViewController.m; sourceTree = SOURCE_ROOT; };
+		FFEEDE08173BBCB70025683A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Class/main.m; sourceTree = SOURCE_ROOT; };
+		FFEEDE09173BBCB70025683A /* Robo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Robo-Info.plist"; path = "Class/Robo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FFEEDE0A173BBCB70025683A /* Robo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Robo-Prefix.pch"; path = "Class/Robo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		FFEEDE27173BBF540025683A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Class/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		FFEEDE29173BBF540025683A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Class/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919334A11676365C00FFE547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4BF91B1747520100E908F6 /* AudioToolbox.framework in Frameworks */,
+				FFEEDDFF173BA9420025683A /* CoreBluetooth.framework in Frameworks */,
+				FFB27BAE173B5422001DE3E6 /* CoreMotion.framework in Frameworks */,
+				1AE1000916815F15008B4782 /* ImageIO.framework in Frameworks */,
+				9135EF6D16778B81003E326A /* CoreVideo.framework in Frameworks */,
+				919334DA16763CBB00FFE547 /* QuartzCore.framework in Frameworks */,
+				919334CE1676370D00FFE547 /* AVFoundation.framework in Frameworks */,
+				919334CF1676370D00FFE547 /* CoreImage.framework in Frameworks */,
+				919334D01676370D00FFE547 /* CoreMedia.framework in Frameworks */,
+				919334A91676365C00FFE547 /* UIKit.framework in Frameworks */,
+				919334AB1676365C00FFE547 /* Foundation.framework in Frameworks */,
+				919334AD1676365C00FFE547 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919334991676365C00FFE547 = {
+			isa = PBXGroup;
+			children = (
+				FFD9D5EF1820C56200C1F0E0 /* Images.xcassets */,
+				919334AE1676365C00FFE547 /* Class */,
+				FFEEDDF9173BA8360025683A /* Konashi */,
+				FFBBD6BE173C382C00C52594 /* Resource */,
+				919334A71676365C00FFE547 /* Frameworks */,
+				919334A51676365C00FFE547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919334A51676365C00FFE547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919334A41676365C00FFE547 /* Robo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919334A71676365C00FFE547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BF91A1747520100E908F6 /* AudioToolbox.framework */,
+				FFEEDDFE173BA9420025683A /* CoreBluetooth.framework */,
+				FFB27BAD173B5422001DE3E6 /* CoreMotion.framework */,
+				1AE1000816815F15008B4782 /* ImageIO.framework */,
+				9135EF6C16778B81003E326A /* CoreVideo.framework */,
+				919334D916763CBB00FFE547 /* QuartzCore.framework */,
+				919334CB1676370D00FFE547 /* AVFoundation.framework */,
+				919334CC1676370D00FFE547 /* CoreImage.framework */,
+				919334CD1676370D00FFE547 /* CoreMedia.framework */,
+				919334A81676365C00FFE547 /* UIKit.framework */,
+				919334AA1676365C00FFE547 /* Foundation.framework */,
+				919334AC1676365C00FFE547 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		919334AE1676365C00FFE547 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FFEEDE00173BBC680025683A /* AppDelegate.h */,
+				FFEEDE01173BBC680025683A /* AppDelegate.m */,
+				FFEEDE03173BBC9E0025683A /* ViewController.h */,
+				FFEEDE04173BBC9E0025683A /* ViewController.m */,
+				FF426CC11745ACDA00B4015D /* PhaseControll.h */,
+				FF426CC21745ACDA00B4015D /* PhaseControll.m */,
+				FFEAA1C5173E2256002F7BA4 /* Bluetooth.h */,
+				FFEAA1C6173E2256002F7BA4 /* Bluetooth.m */,
+				FFEAA1BC173E1F3A002F7BA4 /* Camera.h */,
+				FFEAA1BD173E1F3A002F7BA4 /* Camera.m */,
+				FFEAA1B9173E1F12002F7BA4 /* Motor.h */,
+				FFEAA1BA173E1F12002F7BA4 /* Motor.m */,
+				FFEEDE26173BBF540025683A /* InfoPlist.strings */,
+				FFEEDE28173BBF540025683A /* MainStoryboard.storyboard */,
+				919334AF1676365C00FFE547 /* Supporting Files */,
+			);
+			name = Class;
+			path = ToyCam;
+			sourceTree = "<group>";
+		};
+		919334AF1676365C00FFE547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFEEDE08173BBCB70025683A /* main.m */,
+				FFEEDE09173BBCB70025683A /* Robo-Info.plist */,
+				FFEEDE0A173BBCB70025683A /* Robo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBBD6BE173C382C00C52594 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FFBBD6BF173C384F00C52594 /* faceSquare.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FFEEDDF9173BA8360025683A /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				FFEEDDFA173BA84A0025683A /* Konashi.h */,
+				FFEEDDFB173BA84A0025683A /* Konashi.m */,
+				FFEEDDFC173BA84A0025683A /* KonashiDb.h */,
+			);
+			name = Konashi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919334A31676365C00FFE547 /* Robo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919334C81676365C00FFE547 /* Build configuration list for PBXNativeTarget "Robo" */;
+			buildPhases = (
+				919334A01676365C00FFE547 /* Sources */,
+				919334A11676365C00FFE547 /* Frameworks */,
+				919334A21676365C00FFE547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Robo;
+			productName = ToyCam;
+			productReference = 919334A41676365C00FFE547 /* Robo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9193349B1676365C00FFE547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "iOS6 books";
+			};
+			buildConfigurationList = 9193349E1676365C00FFE547 /* Build configuration list for PBXProject "Robo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 919334991676365C00FFE547;
+			productRefGroup = 919334A51676365C00FFE547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919334A31676365C00FFE547 /* Robo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919334A21676365C00FFE547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEEDE2A173BBF540025683A /* InfoPlist.strings in Resources */,
+				FFEEDE2B173BBF540025683A /* MainStoryboard.storyboard in Resources */,
+				FFBBD6C0173C384F00C52594 /* faceSquare.png in Resources */,
+				FFD9D5F01820C56200C1F0E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919334A01676365C00FFE547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEEDDFD173BA84A0025683A /* Konashi.m in Sources */,
+				FFEEDE02173BBC680025683A /* AppDelegate.m in Sources */,
+				FFEEDE05173BBC9E0025683A /* ViewController.m in Sources */,
+				FFEEDE0D173BBCB70025683A /* main.m in Sources */,
+				FFEAA1BB173E1F12002F7BA4 /* Motor.m in Sources */,
+				FFEAA1BE173E1F3A002F7BA4 /* Camera.m in Sources */,
+				FFEAA1C7173E2256002F7BA4 /* Bluetooth.m in Sources */,
+				FF426CC31745ACDA00B4015D /* PhaseControll.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFEEDE26173BBF540025683A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFEEDE27173BBF540025683A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFEEDE28173BBF540025683A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFEEDE29173BBF540025683A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919334C61676365C00FFE547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		919334C71676365C00FFE547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919334C91676365C00FFE547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Class/Robo-Prefix.pch";
+				INFOPLIST_FILE = "Class/Robo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Robo;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		919334CA1676365C00FFE547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Class/Robo-Prefix.pch";
+				INFOPLIST_FILE = "Class/Robo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Robo;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9193349E1676365C00FFE547 /* Build configuration list for PBXProject "Robo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919334C61676365C00FFE547 /* Debug */,
+				919334C71676365C00FFE547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919334C81676365C00FFE547 /* Build configuration list for PBXNativeTarget "Robo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919334C91676365C00FFE547 /* Debug */,
+				919334CA1676365C00FFE547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9193349B1676365C00FFE547 /* Project object */;
+}
